@@ -8,5 +8,14 @@ namespace eComputer
 {
     class Computer
     {
+        public Computer()
+        {
+            Console.WriteLine("Loading...");
+            Console.WriteLine("Loading....");
+            Console.WriteLine("Loading...");
+            Console.WriteLine("Loading..");
+            Console.WriteLine("Loading.");
+            Console.ReadLine();
+        }
     }
 }
