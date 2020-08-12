@@ -8,9 +8,8 @@ namespace eComputer
 {
     class HardDrive
     {
-        double totalStorage;
-        double availableStorage;
-
+        public double totalStorage;
+        public double availableStorage;
         public HardDrive(double totalStorage, double availableStorage)
         {
             this.totalStorage = totalStorage;
